@@ -1,5 +1,5 @@
 let errors = {
-  invalidNetwork: new Error('Sorry, ENS is not available on this network at the moment.')
+  invalidNetwork: new Error('Sorry, DAB is not available on this network at the moment.')
 };
 
 var allLoaded = setInterval(function() {
