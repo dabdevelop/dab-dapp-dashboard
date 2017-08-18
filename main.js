@@ -16439,7 +16439,7 @@ function queryDABInfo() {
   }else{
     function getDABInfoAsync(callback){
       $.ajax({
-        url: 'http://api.dab-foundation.org/v1/all', // transactions
+        url: 'https://api.dab-foundation.org/v1/all', // transactions
         type: 'GET',
         dataType: 'json',
         success: callback
@@ -16463,7 +16463,6 @@ function queryDABInfo() {
         }
       })
     }
-
 
     setInterval(getDABInfo, 3000);
   }
