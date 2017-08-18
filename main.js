@@ -16210,7 +16210,7 @@ function queryDABInfo() {
 // Blink engine detection
   var isBlink = (isChrome || isOpera) && !!window.CSS;
 
-  if(!isSafari){
+  if(isFirefox || isEdge || isChrome){
 
     var web3;
     var network;
